@@ -1,0 +1,50 @@
+.loginScreen {
+    position: relative;
+    height: 100%;
+    background: url(https://www.topbots.com/wp-content/uploads/2019/06/cover_Netflix2_1600px_web.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.loginScreen__logo {
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.loginScreen__gradient {
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 0,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0.8) 100%
+    );
+}
+
+.loginScreen__button {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    cursor: pointer;
+}
+
+.loginScreen__body {
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+}
+
+.loginScreen__body > h1 {
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
