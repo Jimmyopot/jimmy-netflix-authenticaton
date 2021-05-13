@@ -40,8 +40,16 @@ function SignUpScreen() {
         <div className="SignUpScreen">
             <form>
                 <h1>Sign In</h1>
-                <input ref={emailRef} type="email" placeholder="Email Address" />
-                <input ref={passwordRef} type="password" placeholder="Password" />
+                <input 
+                    ref={emailRef} 
+                    type="email" 
+                    placeholder="Email Address" 
+                />
+                <input 
+                    ref={passwordRef} 
+                    type="password" 
+                    placeholder="Password"
+                />
                 <button type="submit" onClick={signIn}>Sign In</button>
 
                 <h4>

@@ -7,6 +7,7 @@ function LoginScreen() {
 
     return (
         <div className="loginScreen">
+            {/* background, navbar(netflix, sign in button) */}
             <div className="loginScreen__background">
                 <img 
                     className="loginScreen__logo"
@@ -14,15 +15,15 @@ function LoginScreen() {
                     alt=""
                 />
                 <button 
-                    onClick={() => setSignIn(true)}
                     className="loginScreen__button"
+                    onClick={() => setSignIn(true)}
                 >
                     Sign In
                 </button>
 
                 <div className="loginScreen__gradient"></div>
 
-
+                {/* body */}
                 <div className="loginScreen__body">
                     {signIn ? (
                         <SignUpScreen />

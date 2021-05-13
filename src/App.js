@@ -5,7 +5,7 @@ import HomeScreen from './components/HomeScreen';
 import LoginScreen from './components/LoginScreen';
 import { auth } from './firebase';
 import { useDispatch, useSelector } from 'react-redux';
-import { login, logout, selectUser } from './features/userSlice';
+import { login, logout, selectUser } from './reducers/userSlice';
 import ProfileScreen from './components/ProfileScreen';
 
 function App() {
